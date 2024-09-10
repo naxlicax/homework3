@@ -2,6 +2,7 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #434455;
+  width: 90rem;
 }
 
 .page-logo {
@@ -36,22 +37,44 @@ div {
   list-style-type: none;
   display: flex;
   margin-left: 10rem;
+  margin-top: -1.15rem;
 }
 .pml-second {
   padding: 2rem;
 }
 .page-menu-list a:hover {
-  color: green;
+  color: #404BBF;
 }
-.information {
+.information1 {
   text-decoration: none;
+  color:#2e2f42;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
   margin-left: 70rem;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -2rem;
 }
-
+.information2 {
+  text-decoration: none;
+  color:#2e2f42;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -1.4rem;
+}
+.information1:hover {
+  color:#404BBF;
+}
+.information2:hover {
+  color:#404BBF;
+}
 .head1 {
   color: #ffffff;
   font-size: 3.5rem;
@@ -70,6 +93,10 @@ div {
   color: #ffffff;
   padding: 1rem;
   margin-left: 35rem;
+}
+.button:hover {
+  color:#ffffff;
+  background-color:#404BBF;
 }
 .service {
   background-color: #2e2f42;
@@ -127,7 +154,7 @@ div {
 }
 
 .second-section h3:hover {
-  color: green;
+  color:#404BBF;
 }
 
 .portfolio {
@@ -165,4 +192,8 @@ footer p {
   line-height: 1.5rem;
   font-weight: 400;
   color: #ffffff;
+}
+
+.contanier {
+  width:1154px;
 }
