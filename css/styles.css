@@ -4,7 +4,32 @@ body {
   color: #434455;
   width: 90rem;
 }
-
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  align-items: center;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container-header {
+  width: 1158px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 15px;
+}
 .page-logo {
   font-family: "Raleway", sans-serif;
   font-size: 1.25rem;
@@ -23,9 +48,6 @@ body {
   color: #ffffff;
 }
 
-div {
-  background-color: #2e2f42;
-}
 .page-menu-list a {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -51,11 +73,10 @@ div {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
-  margin-left: 70rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -2rem;
+  
 }
 .information2 {
   text-decoration: none;
@@ -63,11 +84,11 @@ div {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
-  margin-left: 60rem;
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -1.4rem;
+
 }
 .information1:hover {
   color:#404BBF;
@@ -195,5 +216,8 @@ footer p {
 }
 
 .contanier {
-  width:1154px;
+  width: 72.125rem;
+}
+header{
+  border-bottom: 1px solid #e7e9fc
 }
