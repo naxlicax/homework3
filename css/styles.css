@@ -54,12 +54,18 @@ ul {
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
+  margin-right: 76px;
 }
 .page-menu-list ul {
   list-style-type: none;
   display: flex;
   margin-left: 10rem;
   margin-top: -1.15rem;
+  gap:2.5rem;
+}
+.page-menu-list {
+  display:flex;
+  align-items: center;
 }
 .pml-second {
   padding: 2rem;
