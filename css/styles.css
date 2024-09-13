@@ -45,7 +45,7 @@ ul {
   color: #2e2f42;
 }
 .page-logo-last {
-  color: #ffffff;
+color:#2e2f42;
 }
 
 .page-menu-list a {
@@ -218,7 +218,6 @@ footer p {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
-  color: #ffffff;
 }
 
 .contanier {
