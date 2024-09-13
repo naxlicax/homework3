@@ -9,6 +9,15 @@ body {
   margin: 0 auto;
   align-items: center;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+header{
+  border-bottom: 1px solid #e7e9fc
+}
+
 p,
 h1,
 h2,
@@ -23,12 +32,16 @@ ul {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  background-color: #ffffff;
+  margin-bottom: 24px;
 }
 .container-header {
   width: 1158px;
   margin: 0 auto;
   display: flex;
   padding: 0 15px;
+  justify-content: space-between;
+  align-items: center;
 }
 .page-logo {
   font-family: "Raleway", sans-serif;
@@ -90,10 +103,10 @@ color:#2e2f42;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
-  
-  display: flex;
+display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 76px;
 
 }
 .information1:hover {
@@ -140,6 +153,9 @@ color:#2e2f42;
   line-height: 1.5rem;
   font-weight: 400;
   list-style-type: none;
+  padding: 188px 0;
+  margin: auto;
+  align-items: center;
 }
 .first-section h2 {
   font-size: 1.25rem;
@@ -219,10 +235,13 @@ footer p {
   line-height: 1.5rem;
   font-weight: 400;
 }
-
-.contanier {
-  width: 72.125rem;
+.footer {
+  padding: 100px 0;
 }
-header{
-  border-bottom: 1px solid #e7e9fc
+.page-logo {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.footer-p {
+  max-width: 16.5rem;
 }
