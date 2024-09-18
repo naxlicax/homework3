@@ -222,6 +222,12 @@ ul {
 .second-section {
   padding: 120px 0;
 }
+.second-section {
+  display: flex;
+}
+.second-section h3:hover {
+  color: #404bbf;
+}
 .second-section h2 {
   color: #2e2f42;
   line-height: 2.5rem;
@@ -244,14 +250,18 @@ ul {
   display: flex;
   gap: 24px;
 }
+
+.person {
+  background-color: #ffffff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 72px) / 4);
+}
 .person-info {
   background-color: #ffffff;
   margin: 1.5rem;
   padding: 32px 0;
-}
-.person {
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 .person-name {
   text-align: center;
@@ -260,14 +270,6 @@ ul {
 .person-job {
   text-align: center;
 }
-.second-section {
-  display: flex;
-}
-
-.second-section h3:hover {
-  color: #404bbf;
-}
-
 .portfolio-container {
   background-color: #ffffff;
   margin: 1rem;
