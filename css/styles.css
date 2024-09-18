@@ -244,7 +244,7 @@ ul {
   display: flex;
   gap: 24px;
 }
-.people {
+.person-info {
   background-color: #ffffff;
   margin: 1.5rem;
   padding: 32px 0;
