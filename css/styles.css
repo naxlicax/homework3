@@ -315,6 +315,9 @@ ul {
   border-top: none;
   margin-bottom: 8px;
 }
+.portfolio-item {
+  width: calc((100% - 72px) / 4);
+}
 footer p {
   font-size: 1rem;
   line-height: 1.5rem;
