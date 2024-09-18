@@ -7,6 +7,8 @@ body {
 .container {
   width: 1158px;
   align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 img {
   display: block;
@@ -78,12 +80,23 @@ color:#ffffff;
 .page-menu-list {
   display:flex;
   align-items: center;
+
 }
-.pml-second {
-  padding: 2rem;
+.pagemenulist {
+  padding: 24px 0;
 }
 .page-menu-list a:hover {
   color: #404BBF;
+}
+.header-ul {
+  display: flex;
+  gap: 40px;
+}
+
+.information{
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
 }
 .information1 {
   text-decoration: none;
@@ -114,13 +127,14 @@ display: flex;
 .information2:hover {
   color:#404BBF;
 }
-.head1 {
+.head-one {
   color: #ffffff;
   font-size: 3.5rem;
   line-height: 3.75rem;
   font-weight: 700;
   text-align: center;
   padding: 10rem;
+  max-width: 496px;
 }
 .button {
   cursor: pointer;
@@ -132,6 +146,10 @@ display: flex;
   color: #ffffff;
   padding: 1rem;
   margin-left: 35rem;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .button:hover {
   color:#ffffff;
@@ -141,6 +159,7 @@ display: flex;
   background-color: #2e2f42;
   width: 80rem;
   height: 37.5rem;
+  padding: 188px 0;
 }
 .first-section {
   display: flex;
@@ -199,6 +218,11 @@ display: flex;
 .second-section h3:hover {
   color:#404BBF;
 }
+
+.portfolio-container {
+  background-color: #ffffff;
+  margin:1rem;
+}
 .third-section h2 {
   color: #2e2f42;
   font-size: 2.25rem;
@@ -234,7 +258,7 @@ display: flex;
 .our-portfolio {
   padding: 120px 0;
 }
-.portfolio-item {
+.portfolio-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
