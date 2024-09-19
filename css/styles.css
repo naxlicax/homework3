@@ -60,6 +60,7 @@ ul {
 .page-logo-2 {
   color: #2e2f42;
   
+  
 }
 .page-logo-last {
   color: #ffffff;
@@ -273,6 +274,7 @@ ul {
 .portfolio-container {
   background-color: #ffffff;
   margin: 1rem;
+  
 }
 .third-section h2 {
   color: #2e2f42;
@@ -292,14 +294,6 @@ ul {
   font-size: 1rem;
   line-height: 1.5rem;
 }
-.third-section-first {
-  display: flex;
-  background-color: #ffffff;
-}
-.third-section-second {
-  display: flex;
-  background-color: #ffffff;
-}
 .third-section {
   display: flex;
   flex-wrap: wrap;
@@ -316,7 +310,7 @@ ul {
   margin-bottom: 8px;
 }
 .portfolio-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 footer p {
   font-size: 1rem;
