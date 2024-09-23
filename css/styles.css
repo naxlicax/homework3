@@ -59,6 +59,7 @@ ul {
 }
 .page-logo-2 {
   color: #2e2f42;
+
   
   
 }
@@ -112,6 +113,9 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: 800px;
+  margin-top: -35px;
+
 }
 .information2 {
   text-decoration: none;
@@ -119,10 +123,11 @@ ul {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   margin-right: 76px;
+
+
 }
 .information1:hover {
   color: #404bbf;
