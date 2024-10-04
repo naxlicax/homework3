@@ -332,6 +332,9 @@ footer p {
   display:flex;
   margin-bottom: 1rem;
 }
+.page-logo-last {
+  display:inline-block;
+}
 .footer-p {
   max-width: 16.5rem;
 }
